@@ -6,3 +6,46 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: "Arial"
+}
+
+.menuitems {
+  font-size: 30px;
+  font-weight: normal;
+  list-style-type: none;
+  color: black;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+h3 {
+  font-size: 70px;
+  font-weight: normal;
+  color: green;
+}
+
+h4 {
+  font-size: 40px
+}
+
+h5 {
+  font-size: 30px
+}
+
+.backgroundkayne {
+  background-color: Green;
+  color: White;
+}
+
+.menuitems2 {
+  list-style-type: none;
+}
