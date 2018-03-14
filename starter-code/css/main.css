@@ -8,7 +8,8 @@ White: #FFF
 */
 
 body {
-  font-family: "Arial"
+  font-family: "Arial";
+  margin: 0;
 }
 
 .menuitems {
@@ -16,19 +17,44 @@ body {
   font-weight: normal;
   list-style-type: none;
   color: black;
+  margin-left: 15px;
+}
+
+.listitems {
+  margin-left: 5px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/landing.jpg);
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.textwhite {
+  color: White;
+  font-size: 15px;
+}
+
+.vl {
+  border-bottom: 3px solid green;
 }
 
 h1 {
   font-size: 120px;
   font-weight: normal;
+  color: White;
 }
 
 h2 {
-  font-size: 90px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 30px;
   font-weight: normal;
   color: green;
 }
@@ -38,14 +64,82 @@ h4 {
 }
 
 h5 {
-  font-size: 30px
+  font-size: 30px;
+  margin-bottom:5px;
 }
 
 .backgroundkayne {
   background-color: Green;
   color: White;
+  background-position: center;
+  background-image: url(../images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 100px, 100px;
 }
 
 .menuitems2 {
   list-style-type: none;
+}
+
+.stylelement {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuitemsrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagecenter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centrewhatson {
+  display: flex;
+  justify-content: center;
+}
+
+.alignstuff {
+  padding: 25px 30px 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.finalsection {
+  padding-left: 74px;
+  padding-right: 50px;
+  padding-bottom: 62px;
+  padding-top: 47px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.displayitems {
+  display: flex;
+  padding: 0;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.formatlist {
+  padding:0;
+  width: 40%;
 }
